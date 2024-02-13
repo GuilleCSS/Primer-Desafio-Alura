@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador/Desencriptador</title>
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Logo de Alura" id="logo">
+    </header>
+    <div class="cuerpo">
+        <main>
+        <div id="cajas">
+                <textarea id="entrada" required placeholder="Lorem ipsum dolor sit amet consectetur adipiscing elit Orci montes sit et diam risus scelerisque vitae est Tortor maecenas nunc ut laoreet Eget diam mauris quam quisque ut eget fringilla sit elit Libero sodales duis fames id diam feugiat aliquet non egestas"></textarea>
+
+                <div id="salida">
+                    <img src="Muñeco.png" alt="Hombre con lupa" id="lupa">
+                </div>
+            </div> 
+            <button onclick="encriptar();" class="container__boton">Encriptar</button>
+            <button onclick="desencriptar();" class="container__boton" id="reiniciar">Desencriptar</button>
+        </main>   
+        <script src="script.js" defer></script>
+        <footer>
+            <div id="iniciales">GCS</div>
+            <p class="Copyright">&copy Copyright Codificación y Decodificación - Guillermo Carreto Sánchez</p>
+        </footer>
+    </div>      
+</body>
+</html>
